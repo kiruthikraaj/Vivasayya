@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "168438357080",
+    "firebase_url": "https://vivasaya-60c0e.firebaseio.com",
+    "project_id": "vivasaya-60c0e",
+    "storage_bucket": "vivasaya-60c0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168438357080:android:a723fb260e80efba217e2d",
+        "android_client_info": {
+          "package_name": "com.obliging.vivasaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168438357080-a3v5f3qlrpom2h94ggvqhq7s0a8bceta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtquMXUKBmIboufjS4ippbTzAdQWjihiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168438357080-a3v5f3qlrpom2h94ggvqhq7s0a8bceta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
