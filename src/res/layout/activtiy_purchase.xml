@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buy_now"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Buy Now"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/progress_numb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_buy"
+        app:layout_constraintVertical_bias="0.073"
+        app:srcCompat="@drawable/download" />
+
+    <SeekBar
+        android:id="@+id/seekBar_cmp"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:max="25"
+        android:minHeight="5dp"
+        android:maxHeight="5dp"
+        android:progressTint="#00BCD4"
+        android:thumb="@color/design_default_color_primary"
+        app:layout_constraintBottom_toTopOf="@+id/buy_now"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/progress_numb"
+        android:layout_width="346dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/raleway_bold"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:text="Kg's:0"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar_cmp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_buy"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/product_buy"
+        android:layout_width="410dp"
+        android:layout_height="77dp"
+        android:fontFamily="@font/raleway_black"
+        android:gravity="center"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/purchase_bar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/purchase_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="263dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/raleway_regular"
+        android:gravity="center"
+        android:text="Swipe the bar to Select quantity (max 25kgs)"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/progress_numb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <TextView
+        android:id="@+id/Rupees"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="156dp"
+        android:fontFamily="@font/raleway_bold"
+        android:text="\u20B9-0"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.553" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
