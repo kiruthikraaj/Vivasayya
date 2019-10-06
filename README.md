@@ -8,8 +8,10 @@ Its a Prototype for selling the crops,vegetables and fruits in a beneficial way 
 <img src="./screenshots/Screenshot_20191006-102050.jpg" height="300px" width="150px"/>
 
 ### Login Screen
+<img src="./screenshots/Screenshot_20191006-104145.jpg" height="300px" width="150px"/>
 
 ### Signup Screen
+<img src="./screenshots/Screenshot_20191006-104151.jpg" height="300px" width="150px"/>
 
 ### Main Screen Fragments
 <img src="./screenshots/Screenshot_20191006-102203.jpg" height="300px" width="150px"/>
